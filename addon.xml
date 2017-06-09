@@ -8,12 +8,14 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<platform>all</platform>
-		<summary lang="en">User-agent fix for m3u playlist</summary>
-		<description lang="en">Downloads IPTV-playlist, adds custom User-agent to make it compatible with OSMC. Outputs one playlist with all channels and one playlist with only Swedish channels.</description>
+		<summary lang="en">User-agent fix for IPTV on OSMC</summary>
+		<summary lang="sv_SE">User-agent fix för IPTV på OSMC</summary>
+		<description lang="en">Downloads IPTV-playlist, adds custom User-agent to make it compatible with OSMC. Then outputs one playlist with all channels and one playlist with only Swedish channels.</description>
+		<description lang="sv_SE">Laddar ner IPTV-spellista, lägger till en User-agent för kompabilitet med OSMC. Sparar sen en spellista med alla kanaler och en med bara svenska kanaler.</description>
 		<license>GNU General Public License, v2</license>
-		<language></language>
+		<language>en sv_SE</language>
 		<forum></forum>
-		<source></source>
+		<source>http://github.com/zissou1/script.ua.fix</source>
 		<website></website>
 		<email></email>
 		<assets>
@@ -23,6 +25,6 @@
 			<screenshot></screenshot>
 			<screenshot></screenshot>
 		</assets>
-		<news>BETA released</news>
+		<news>Released 1.0.0</news>
 	</extension>
 </addon>
