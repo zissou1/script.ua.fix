@@ -1,0 +1,105 @@
+# Kodi Media Center language file
+# Addon Name: PVR IPTV Simple Client
+# Addon id: pvr.iptvsimple
+# Addon Provider: nightik
+msgid ""
+msgstr ""
+"Project-Id-Version: KODI Main\n"
+"Report-Msgid-Bugs-To: http://trac.kodi.tv/\n"
+"POT-Creation-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Kodi Translation Team\n"
+"Language-Team: Swedish (Sweden) (http://www.transifex.com/projects/p/kodi-main/language/sv_SE/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sv_SE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "#30000"
+msgid "Playlists destination path"
+msgstr "Sökväg för spellistor"
+
+msgctxt "#30001"
+msgid "Username"
+msgstr "Användarnamn"
+
+msgctxt "#30002"
+msgid "Password"
+msgstr "Lösenord"
+
+msgctxt "#30010"
+msgid "General"
+msgstr "Allmänt"
+
+msgctxt "#30011"
+msgid "Playlists fixed successfully!"
+msgstr "Spellistor fixade!"
+
+msgctxt "#30012"
+msgid "Reboot is required"
+msgstr "Omstart krävs"
+
+msgctxt "#30013"
+msgid "Error! Could not download playlist"
+msgstr "Fel! Kunde inte ladda ner spellista"
+
+msgctxt "#30020"
+msgid "Check username and password"
+msgstr "Kontrollera användarnamn och lösenord"
+
+msgctxt "#30021"
+msgid "Error! No internet connection"
+msgstr "Fel! Ingen internetanslutning"
+
+msgctxt "#30022"
+msgid "Yes"
+msgstr "Ja"
+
+msgctxt "#30023"
+msgid "No"
+msgstr "Nej"
+
+msgctxt "#30024"
+msgid "Do you want to reboot now?"
+msgstr "Vill du starta om nu?"
+
+msgctxt "#30025"
+msgid "Cache m3u at local storage"
+msgstr "Cacha m3u på lokalt utrymme"
+
+msgctxt "#30026"
+msgid "Cache XMLTV at local storage"
+msgstr "Cacha XMLTV på lokalt utrymme"
+
+msgctxt "#30030"
+msgid "Channels Logos"
+msgstr "Kanalloggor"
+
+msgctxt "#30031"
+msgid "Channels Logos Folder"
+msgstr "Mapp för kanalloggor"
+
+msgctxt "#30032"
+msgid "Channels Logos Base URL"
+msgstr "Bas-URL för kanalloggor"
+
+msgctxt "#30040"
+msgid "XMLTV Logos Options"
+msgstr "XMLTV-logoalternativ"
+
+msgctxt "#30041"
+msgid "Channels Logos from XMLTV"
+msgstr "Kanalloggor från XMLTV"
+
+msgctxt "#30042"
+msgid "Ignore"
+msgstr "Ignorera"
+
+msgctxt "#30043"
+msgid "Prefer M3U"
+msgstr "Föredra M3U"
+
+msgctxt "#30044"
+msgid "Prefer XMLTV"
+msgstr "Föredra XMLTV"

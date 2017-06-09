@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.ua.fix" name="User-agent fix" version="1.0.0" provider-name="Zissou">
+	<requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">User-agent fix for m3u playlist</summary>
+		<description lang="en">Downloads IPTV-playlist, adds custom User-agent to make it compatible with OSMC. Outputs one playlist with all channels and one playlist with only Swedish channels.</description>
+		<license>GNU General Public License, v2</license>
+		<language></language>
+		<forum></forum>
+		<source></source>
+		<website></website>
+		<email></email>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+			<screenshot></screenshot>
+			<screenshot></screenshot>
+			<screenshot></screenshot>
+		</assets>
+		<news>BETA released</news>
+	</extension>
+</addon>
