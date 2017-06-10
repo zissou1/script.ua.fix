@@ -4,17 +4,19 @@ import xbmcgui
 import urllib2
 from contextlib import closing
 
-addon       = xbmcaddon.Addon()
-addonname   = addon.getAddonInfo('name')
+addon = xbmcaddon.Addon()
+addonname = addon.getAddonInfo('name')
 settings = xbmcaddon.Addon(id='script.ua.fix')
 username = addon.getSetting('username')
 password = addon.getSetting('password')
 m3upath = addon.getSetting('m3upath')
 new_useragent = ('Kodi/17.1 (Macintosh; Intel Mac OS X 10_11_6) App_Bitness/64 Version/16.1-Git:2016-04-24-c327c5')
 dialog = xbmcgui.Dialog()
+__language__ = settings.getLocalizedString
 note_time = 10000
 note_error = 'error'
-__language__ = settings.getLocalizedString
+
+#Language strings
 note_success = __language__(30011)
 note_reboot =__language__(30012)
 note_urlerr = __language__(30013)
@@ -47,7 +49,6 @@ def uafix():
                         fileswe.write(line.replace('.m3u8', '.m3u8|User-agent='+new_useragent))
                     fileall.write(line.replace('.m3u8', '.m3u8|User-agent='+new_useragent))
 
-            #xbmc.executebuiltin('Notification(%s, %s, %d)'%(note_success.encode('utf-8'), note_reboot.encode('utf-8'), note_time))
             if dialog.yesno(addon.getAddonInfo('name'), note_success, note_reboot, note_reboot_now , yeslabel=note_yes, nolabel=note_no):
                 xbmc.restart()
             else:
