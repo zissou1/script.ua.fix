@@ -42,7 +42,7 @@ def uafix():
                     if '#EXTM3U' in line:
                         fileswe.write(line)
                         ignoreLines = True
-                    if 'group-title=\"Sweden\"' in line:
+                    if 'tvg-name=\" Sweden [SE] \"' in line:
                         ignoreLines = False
                     if 'group-title=\"Switzerland\"' in line:
                         ignoreLines = True
