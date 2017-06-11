@@ -2,6 +2,7 @@ import xbmcaddon
 import xbmc
 import xbmcgui
 import urllib2
+import time
 from contextlib import closing
 
 addon = xbmcaddon.Addon()
@@ -56,6 +57,8 @@ def uafix():
 
     except urllib2.URLError:
         xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(note_urlerr.encode('utf-8'), note_usrpass.encode('utf-8'), note_time, note_error))
+        time.sleep(2)
+        addon.openSettings('script.ua.fix')
 
 try:
     urllib2.urlopen("http://www.google.com").close()
