@@ -37,8 +37,8 @@ msgid "Playlists fixed successfully!"
 msgstr "Spellistor fixade!"
 
 msgctxt "#30012"
-msgid "Reboot is required"
-msgstr "Omstart krävs"
+msgid "Reboots system automatically in 10 seconds"
+msgstr "Systemet startas om automatiskt om 10 sekunder"
 
 msgctxt "#30013"
 msgid "Error! Could not download playlist"
@@ -61,8 +61,8 @@ msgid "No"
 msgstr "Nej"
 
 msgctxt "#30024"
-msgid "Do you want to reboot now?"
-msgstr "Vill du starta om nu?"
+msgid "Do you want to abort the reboot?"
+msgstr "Vill du avbryta omstarten?"
 
 msgctxt "#30025"
 msgid "Cache m3u at local storage"

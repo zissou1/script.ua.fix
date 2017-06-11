@@ -25,7 +25,7 @@ note_usrpass = __language__(30020)
 note_connerr = __language__(30021)
 note_yes = __language__(30022)
 note_no = __language__(30023)
-note_reboot_now = __language__(30024)
+note_abort_reboot = __language__(30024)
 
 def uafix():
     try:
@@ -50,10 +50,10 @@ def uafix():
                         fileswe.write(line.replace('.m3u8', '.m3u8|User-agent='+new_useragent))
                     fileall.write(line.replace('.m3u8', '.m3u8|User-agent='+new_useragent))
 
-            if dialog.yesno(addon.getAddonInfo('name'), note_success, note_reboot, note_reboot_now , yeslabel=note_yes, nolabel=note_no):
-                xbmc.restart()
-            else:
+            if dialog.yesno(addon.getAddonInfo('name'), note_success, note_reboot, note_abort_reboot , yeslabel=note_yes, nolabel=note_no, autoclose=10000):
                 xbmc.executebuiltin('ActivateWindow(10000,return)')
+            else:
+                xbmc.restart()
 
     except urllib2.URLError:
         xbmc.executebuiltin('Notification(%s, %s, %d, %s)'%(note_urlerr.encode('utf-8'), note_usrpass.encode('utf-8'), note_time, note_error))

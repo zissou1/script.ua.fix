@@ -41,7 +41,7 @@ msgid "Playlists fixed successfully!"
 msgstr ""
 
 msgctxt "#30012"
-msgid "Reboot is required"
+msgid "Reboots system automatically in 10 seconds"
 msgstr ""
 
 msgctxt "#30013"
@@ -67,7 +67,7 @@ msgid "No"
 msgstr ""
 
 msgctxt "#30024"
-msgid "Do you want to reboot now?"
+msgid "Do you want to abort the reboot?"
 msgstr ""
 
 msgctxt "#30025"
