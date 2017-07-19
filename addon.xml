@@ -10,8 +10,8 @@
 		<platform>all</platform>
 		<summary lang="en">User-agent fix for IPTV on OSMC</summary>
 		<summary lang="sv_SE">User-agent fix för IPTV på OSMC</summary>
-		<description lang="en">Downloads IPTV-playlist, adds custom User-agent to make it compatible with OSMC. Then outputs one playlist with all channels and one playlist with only Swedish channels.</description>
-		<description lang="sv_SE">Laddar ner IPTV-spellista, lägger till en User-agent för kompabilitet med OSMC. Sparar sen en spellista med alla kanaler och en med bara svenska kanaler.</description>
+		<description lang="en">Downloads IPTV-playlist, adds custom User-agent to make it compatible with OSMC. Then outputs one original playlist and on with the fix.</description>
+		<description lang="sv_SE">Laddar ner IPTV-spellista, lägger till en User-agent för kompabilitet med OSMC. Sparar sen en original spellista och en fixad.</description>
 		<license>GNU General Public License, v2</license>
 		<language>en sv_SE</language>
 		<forum></forum>
