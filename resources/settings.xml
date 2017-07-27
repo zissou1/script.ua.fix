@@ -4,7 +4,7 @@
     	<setting id="sep1" label="30010" type="lsep"/> 
     	<setting id="username" type="text" label="30001" default=""/>
     	<setting id="password" type="text" label="30002" default=""/>
-		<setting id="url" type="text" label="30004" default=""/>
+		<setting id="url" type="text" label="30004" default="http://providerdomain.com:8080"/>
 		<setting id="output" type="labelenum" label="30003" values="m3u8|ts"/>
     	<setting id="m3upath" type="folder" label="30000" default="/home/osmc/"/>
 	</category>
