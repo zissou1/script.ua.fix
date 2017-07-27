@@ -12,6 +12,7 @@ username = addon.getSetting('username')
 password = addon.getSetting('password')
 m3upath = addon.getSetting('m3upath')
 output = addon.getSetting('output')
+provider_url = addon.getSetting('url')
 new_useragent = ('Kodi/17.1 (Macintosh; Intel Mac OS X 10_11_6) App_Bitness/64 Version/16.1-Git:2016-04-24-c327c5')
 dialog = xbmcgui.Dialog()
 __language__ = settings.getLocalizedString
@@ -30,7 +31,7 @@ note_abort_reboot = __language__(30024)
 
 def uafix():
     try:
-        req = urllib2.Request('http://clientportal.link:8080/get.php?username='+username+'&password='+password+'&type=m3u_plus&output='+output,headers={'User-Agent': 'Mozilla/5.0'})
+        req = urllib2.Request(provider_url+'/get.php?username='+username+'&password='+password+'&type=m3u_plus&output='+output,headers={'User-Agent': 'Mozilla/5.0'})
 
         with closing(urllib2.urlopen(req)) as response:
             m3u_response = response.read().decode('ascii', 'ignore')

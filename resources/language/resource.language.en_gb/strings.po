@@ -34,7 +34,11 @@ msgctxt "#30003"
 msgid "Output"
 msgstr ""
 
-#empty strings from id 30004 to 30009
+msgctxt "#30004"
+msgid "Provider URL"
+msgstr ""
+
+#empty strings from id 30005 to 30009
 
 msgctxt "#30010"
 msgid "General"
