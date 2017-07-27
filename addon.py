@@ -49,7 +49,7 @@ def uafix():
                         ignoreLines = True
                     if not ignoreLines:
                         fileswe.write(line.replace('.m3u8', '.m3u8|User-agent='+new_useragent))'''
-                    fileall.write(line.replace('.m3u8', '.m3u8|User-agent='+new_useragent))
+                    fileall.write(line.replace('.'+output, '.'+output+'|User-agent='+new_useragent))
 
             if dialog.yesno(addon.getAddonInfo('name'), note_success, note_reboot, note_abort_reboot , yeslabel=note_yes, nolabel=note_no, autoclose=13000):
                 xbmc.executebuiltin('ActivateWindow(10000,return)')
